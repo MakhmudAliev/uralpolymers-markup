@@ -2,8 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Gilroy';
 }
 html {
   font-size: 10px;
-  font-family: sans-serif;
+  font-family: 'Gilroy';
+}
+a:active, a:focus{
+  outline: none;
+} 
+button:active, button:focus { 
+  outline: none; 
 }

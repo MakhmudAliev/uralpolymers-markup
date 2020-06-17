@@ -3,11 +3,55 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Gilroy';
 }
 
 html {
   font-size: 10px;
-  font-family: sans-serif;
+  font-family: 'Gilroy';
+}
+
+a:active, a:focus {
+  outline: none;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("/fonts/Gilroy-SemiBold.eot");
+  src: url("/fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("/fonts/Gilroy-SemiBold.woff") format("woff"), url("/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("/fonts/Gilroy-Bold.eot");
+  src: url("/fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Gilroy-Bold.woff") format("woff"), url("/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+button {
+  background-color: #ff9c00;
+  color: #fff;
+  padding: 16px 40px;
+  border: none;
+  font-size: 1.6rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
 }
 
 .mainsection {
@@ -43,19 +87,24 @@ html {
 }
 
 .maintext-title {
-  font-size: 4.6rem;
+  font-size: 5rem;
+  font-family: "Gilroy";
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 6.2rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   max-width: 60%;
-  line-height: 4.6rem;
 }
 
 .maintext-subtitle {
   font-size: 1.6rem;
-  line-height: 2.4rem;
+  line-height: 3rem;
   margin-top: 20px;
-  max-width: 70%;
+  max-width: 40%;
 }
 
 .maintext-button {
-  margin-top: 20px;
+  margin-top: 62px;
 }
 /*# sourceMappingURL=style.css.map */
